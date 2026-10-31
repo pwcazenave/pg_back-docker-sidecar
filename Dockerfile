@@ -27,7 +27,7 @@ FROM --platform=$BUILDPLATFORM alpine:3.24
 # made with Postgres17 cannot be restored on an instance running version 16
 RUN apk add --no-cache \
     bash=5.3.9-r1 \
-    gomplate=5.1.0-r1 \
+    gomplate=5.1.0-r3 \
     aws-cli=2.34.63-r0 \
     postgresql18-client=18.6-r0 \
     postgresql17-client=17.11-r0 \
